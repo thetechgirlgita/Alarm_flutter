@@ -13,7 +13,7 @@ class _ClockState extends State<Clock> {
   Widget build(BuildContext context) {
     return Container(
       width: 300,
-      height: 300,
+      height: 500,
       child: CustomPaint(
         painter: ClockDraw(),
       ),
